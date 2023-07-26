@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+.btn{
+    padding:15px 35px;
+    background: linear-gradient(to left, #4200fc, #f901fc);
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+
+.btn:hover{
+    color: blue;
+    background: linear-gradient(to right,#4568dc, #b06ab3);
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #0f051e;
+}
+
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-top: 30px;
+    z-index: 100;
+    position: relative;
+    
+}
+
+
+
+
+
+.portfolio{
+    
+    font-size: 35px;
+    font-weight: bold;
+    background: linear-gradient(to left, #4200fc , #f901fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-navbar a{
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 30px;
+    color: #fff;
+}
+
+
+
+
+
+
+.connect{
+    justify-content: center;
+}
+
+.main-content{
+    padding-top:10px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-content h1{
+    color: #fff;
+    font-size: 50px;
+
+}
+
+.main-content p{
+    color: #fff;
+    margin-top: 50px;
+    
+
+}
+.main-content span {
+    background: linear-gradient(to left, #4200fc , #f901fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+
+    
+}
+
+.two{
+    overflow: hidden;
+    width: 0ch;
+    white-space: nowrap;
+    animation: text 3s steps(6) infinite alternate;
+    border-right: 3px solid white;
+}
+
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 8ch;
+    }
+}
+
+.quote:hover{
+    color: #4200fc;
+}
+
+
+
+
+
+
+
+.main-content a {
+    margin-top: 30px;
+    align-items: center;
+    width: 190px;
+}
+
+
+
+
+
+.social-links{
+    position: absolute;
+    top: 52.5%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    right: 20px;
+    
+}
+
+.social-links a{
+    color: #fff;
+}
+
+.social-links a:hover{
+    color: blue;
+}
+
+
+
+.social-links span{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 45px;
+    transform: rotate(90deg);
+}
+
+.quote{
+    position: absolute;
+    top: 40%;
+    color: rgba(255,255,255,0.1);
+    font-weight: 500;
+    left: 66%;
+    
+    
+}
+
+.heading{
+    top: 80%;
+    width: 100%;
+    position: absolute;
+    color: #fff; 
+    justify-content: center;
+    text-align: center;  
+}
+
+.weapons{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    top: 90%;
+    justify-content: space-evenly;
+    
+}
+
+
+
+
+.c{
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+}
+
+.cpp{
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+}
+
+.java{
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+}
+
+.html{
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+}
+
+.css{
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+}
+
+.js{
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+}
+
+.vs{
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+}
+
+
+.abc{
+    padding: 8px;
+    transition: all 0.1s ease-out;
+    background: linear-gradient(to right, #ff3300 50%, #0f051e 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    border-radius: 5px;
+}
+.abc:hover{
+    background-position: left;
+}
+    
+    
+
+
